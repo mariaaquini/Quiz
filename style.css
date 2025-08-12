@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6ec; /* color cremita claro */
+  margin: 0;
+  padding: 0;
+}
+
+.quiz-container {
+  max-width: 600px;
+  background: white;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+}
+
+.question {
+  margin-bottom: 15px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 15px;
+  border: none;
+  background-color: #e6b980;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d9a066;
+}
+
+#score {
+  text-align: center;
+  font-weight: bold;
+  color: #444;
+  margin-top: 15px;
+}
